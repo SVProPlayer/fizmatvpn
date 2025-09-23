@@ -1,0 +1,1 @@
+vless://ba72741a-f3bc-491c-9b80-88f67067b9ad@ad.lysenar.ru:26544?type=tcp&security=reality&pbk=GoPythJ9fnEfptqkN9vV9KjKpnPPzL7kkoB3Z1g84G4&fp=safari&sni=www.tbank.ru&sid=3fe6fa&spx=%2F&flow=xtls-rprx-vision#VLESS%20-%20Cloned%20-%20Cloned-www.tbank.ru
