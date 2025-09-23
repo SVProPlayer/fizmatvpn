@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subscription Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .link-input {
+            margin-bottom: 10px;
+        }
+
+        .copy-button {
+            margin-left: 10px;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1;
+        }
+
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .limited {
+            background-color: #F44336;
+            color: white;
+        }
+
+        .expired {
+            background-color: #FF9800;
+            color: white;
+        }
+
+        .disabled {
+            background-color: #9E9E9E;
+            color: white;
+        }
+
+        .qr-popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 10px 25px 25px 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 9999;
+        }
+
+        .qr-close-button {
+            text-align: right;
+            margin-bottom: 5px;
+            margin-right: -15px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+    <h1>User Information</h1>
+    <p>Username: 5132355631</p>
+    <p>Status: <span
+            class="status active">active</span></p>
+    <p>Data Limit: ∞</p>
+    <p>Data Used: 329.97 GB</p>
+    <p>Expiration Date:
+        
+        ∞
+        </p>
+
+    
+    <h2>Links:</h2>
+    <ul>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@185.207.133.110:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%E2%9A%A1" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@185.207.133.110:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%E2%9A%A1', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@185.207.133.110:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20%E2%9A%A1">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@185.246.155.51:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%E2%9A%A1" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@185.246.155.51:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%E2%9A%A1', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@185.246.155.51:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%E2%9A%A1">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@193.37.214.45:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%A7%F0%9F%87%AC%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%20%E2%9A%A1" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@193.37.214.45:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%A7%F0%9F%87%AC%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%20%E2%9A%A1', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@193.37.214.45:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%A7%F0%9F%87%AC%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%20%E2%9A%A1">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@5.181.2.141:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%AD%F0%9F%87%B7%20%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F%20%E2%9A%A1" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@5.181.2.141:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%AD%F0%9F%87%B7%20%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F%20%E2%9A%A1', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@5.181.2.141:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%AD%F0%9F%87%B7%20%D0%A5%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D1%8F%20%E2%9A%A1">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@92.222.217.100:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%AB%F0%9F%87%B7%20%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%20%E2%9A%A1" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@92.222.217.100:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%AB%F0%9F%87%B7%20%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%20%E2%9A%A1', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@92.222.217.100:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%AB%F0%9F%87%B7%20%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%20%E2%9A%A1">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@217.144.184.203:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%20%F0%9F%95%8A%EF%B8%8F" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@217.144.184.203:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%20%F0%9F%95%8A%EF%B8%8F', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@217.144.184.203:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%20%F0%9F%95%8A%EF%B8%8F">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@77.73.66.14:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%E2%9A%A1%F0%9F%95%8A%EF%B8%8F" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@77.73.66.14:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%E2%9A%A1%F0%9F%95%8A%EF%B8%8F', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@77.73.66.14:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%E2%9A%A1%F0%9F%95%8A%EF%B8%8F">QR Code</button>
+        </li>
+        
+        <li>
+            <input type="text" value="vless://46166b8f-14a7-476b-b343-da51526fc830@77.73.67.218:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%A7%85%20Tor" readonly>
+            <button class="copy-button" onclick="copyLink('vless://46166b8f-14a7-476b-b343-da51526fc830@77.73.67.218:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%A7%85%20Tor', this)">Copy</button>
+            <button class="qr-button" data-link="vless://46166b8f-14a7-476b-b343-da51526fc830@77.73.67.218:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#%F0%9F%A7%85%20Tor">QR Code</button>
+        </li>
+        
+    </ul>
+    <div class="qr-popup" id="qrPopup">
+        <div class="qr-close-button">
+            <button onclick="closeQrPopup()">X</button>
+        </div>
+        <div id="qrCodeContainer"></div>
+    </div>
+    
+
+    <script>
+        function copyLink(link, button) {
+            const tempInput = document.createElement('input');
+            tempInput.setAttribute('value', link);
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            button.textContent = 'Copied!';
+            setTimeout(function () {
+                button.textContent = 'Copy';
+            }, 1500);
+        }
+
+        const qrButtons = document.querySelectorAll('.qr-button');
+        const qrPopup = document.getElementById('qrPopup');
+
+        qrButtons.forEach((qrButton) => {
+            qrButton.addEventListener('click', () => {
+                const link = qrButton.dataset.link;
+                while (qrCodeContainer.firstChild) {
+                    qrCodeContainer.removeChild(qrCodeContainer.firstChild);
+                }
+                const qrCode = new QRCode(qrCodeContainer, {
+                    text: link,
+                    width: 256,
+                    height: 256,
+                    correctLevel: QRCode.CorrectLevel.L
+                });
+                qrPopup.style.display = 'block';
+            });
+        });
+        function closeQrPopup() {
+            document.getElementById('qrPopup').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
