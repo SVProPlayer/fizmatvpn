@@ -1,1 +1,0 @@
-vless://034e4042-25e3-4c13-ba4c-b0976b024602@130.193.37.188:2053?security=reality&type=grpc&headerType=&serviceName=xyz&authority=&mode=gun&sni=ozon.ru&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=#🌐 Мобильный Интернет
