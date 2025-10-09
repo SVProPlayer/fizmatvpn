@@ -1,0 +1,57 @@
+subscription-name: MyVPN
+
+proxies:
+  - name: "Germany-1"
+    type: vless
+    server: de1.example.com
+    port: 443
+    uuid: <UUID>
+    cipher: auto
+    tls: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: de1.example.com
+
+  - name: "Sweden-1"
+    type: vless
+    server: se1.example.com
+    port: 443
+    uuid: <UUID>
+    cipher: auto
+    tls: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: se1.example.com
+
+  - name: "USA-1"
+    type: vless
+    server: us1.example.com
+    port: 8443
+    uuid: <UUID>
+    cipher: auto
+    tls: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: us1.example.com
+
+proxy-groups:
+  - name: "Auto"
+    type: select
+    proxies:
+      - "Germany-1"
+      - "Sweden-1"
+      - "USA-1"
+      - "DIRECT"
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,Auto
