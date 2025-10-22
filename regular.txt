@@ -1,3 +1,3 @@
 vless://034e4042-25e3-4c13-ba4c-b0976b024602@185.207.133.110:8443?security=reality&type=tcp&headerType=&path=&host=&sni=www.vk.com&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#🇩🇪Germany
 vless://cant-be-shared@0.0.0.0:8443?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=follow&pbk=the&sid=rules&spx=please:3#Распространение запрещено😉
-vless://cant-be-shared@77.52.42.0:8443?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=follow&pbk=the&sid=rules&spx=please:3#Лишних пользователей:15☠️☠️☠️
+vless://cant-be-shared@77.52.42.0:8443?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=follow&pbk=the&sid=rules&spx=please:3#Лишних пользователей:15☹️
