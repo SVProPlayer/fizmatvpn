@@ -1,1 +1,1 @@
-https://github.com/SVProPlayer/fizmatvpn/blob/main/regular.txt
+https://raw.githubusercontent.com/SVProPlayer/fizmatvpn/refs/heads/main/regular.txt
