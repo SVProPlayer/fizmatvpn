@@ -1,1 +1,1 @@
-vless://
+vless://034e4042-25e3-4c13-ba4c-b0976b024602@185.207.133.110:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=www.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#🇩🇪Germany 1132822985
