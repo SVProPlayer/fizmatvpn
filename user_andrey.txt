@@ -1,1 +1,1 @@
-vless://id1025593640@62.192.153.201:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=eh.vk.com&pbk=eVO-KU-EdGWTL0JGDywmwbEbZ7_YIUs4cH1pYa9TBgY&sid=40737fc638&spx=/DUkgPK6JgtMzYTV#🇩🇪Germany%205338304393
+vless://9953a2f9-f11f-4551-b508-3cd016cef54e@0.0.0.0:1?encryption=none&type=tcp#не%20актуально
