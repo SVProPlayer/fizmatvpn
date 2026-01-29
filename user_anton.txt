@@ -1,1 +1,0 @@
-vless://dead-server-XD@0.0.0.0:443?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=follow&pbk=the&sid=rules&spx=please:3#Tele2%20сломали%20VPN
