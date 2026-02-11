@@ -39,12 +39,12 @@ SERVER_TEMPLATES = {
 SUBSCRIPTIONS = {
     "beeline_test.txt": [
         ("LTE1_EU", "🇪🇺🔵Билайн №1"),
-        ("LTE1_RU", "🇪🇺🔵Билайн №2"),
+        ("LTE1_RU", "🇷🇺🔵Билайн №2"),
         ("LTE2_EU", "🇪🇺⚪Билайн №3"),
-        ("LTE2_RU", "🇪🇺⚪Билайн №4"),
+        ("LTE2_RU", "🇷🇺⚪Билайн №4"),
         ("LTE3_EU", "🇪🇺🟣Билайн №5"),
-        ("LTE3_RU", "🇪🇺🟣Билайн №6"),
-        ("Germany_Plus", "🛜Германия Wi-Fi"),
+        ("LTE3_RU", "🇷🇺🟣Билайн №6"),
+        ("Germany_Plus", "🇩🇪🛜Германия Wi-Fi"),
     ],
     "megafon_users.txt": [
         ("srv_37_139_5444", "🚀 МегаФон Ультра"),
