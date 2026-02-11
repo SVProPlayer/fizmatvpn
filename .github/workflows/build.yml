@@ -1,48 +1,44 @@
 name: Auto Build Subscriptions
 
-# Скрипт запускается при каждом пуше в ветку main или вручную
 on:
   push:
     branches:
       - main
-  workflow_dispatch: # Позволяет запустить сборку кнопкой во вкладке Actions
+  workflow_dispatch:
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
     
-    # Даем права на запись изменений в репозиторий
     permissions:
       contents: write
 
     steps:
-      # 1. Загружаем код репозитория в рабочую среду
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Устанавливаем Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # 3. Запускаем твой скрипт сборки
       - name: Run build script
         run: python build.py
 
-      # 4. Проверяем, изменилось ли что-то, и если да — пушим в ветку
       - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Добавляем только измененные или новые .txt файлы
           git add *.txt
           
-          # Проверяем, есть ли что коммитить, чтобы экшен не падал с ошибкой
+          # Устанавливаем часовой пояс для текущей сессии (GMT+4 соответствует Etс/GMT-4)
+          export TZ='Etc/GMT-4'
+          
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update subscriptions: $(date +'%Y-%m-%d %H:%M')"
+            # $(date +'%H:%M') теперь возьмет время из TZ
+            git commit -m "Update: $(date +'%d.%m.%Y %H:%M') (GMT+4)"
             git push
           fi
