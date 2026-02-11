@@ -119,12 +119,12 @@ SUBSCRIPTIONS = {
         ("T2_1", "🇭🇺⚫️Т2 №1 1547692696"),
         ("T2_2", "🇭🇺⚫️Т2 №2 1547692696"),
         ("Hungary", "🇭🇺⚫️Т2 №3 1547692696"),
-        ("Poland_Plus", "🇵🇱🛜Poland №1 (Gemini)"),
+        ("Poland_Plus", "🇵🇱🛜Poland №1"),
         ("Poland", "🇵🇱🛜Poland №2"),
-        ("Germany", "🇩🇪🛜Germany (Gemini)"),
+        ("Germany", "🇩🇪🛜Germany"),
         ("NL_1", "🇳🇱🛜Netherlands №1"),
         ("NL_2", "🇳🇱🛜Netherlands №2"),
-        ("NL_3", "🇳🇱🛜Netherlands №3 (Gemini)"),
+        ("NL_3", "🇳🇱🛜Netherlands №3"),
         ("Czech", "🇨🇿🛜Czech.Rep"),
         ("Moscow_1", "🇷🇺🛜Moscow №1"),
         ("Moscow_2", "🇷🇺🛜Moscow №2"),
@@ -210,3 +210,4 @@ SUBSCRIPTIONS = {
         ("Germany_Plus", "🇩🇪🛜Германия Wi-Fi 🆕 5413957454"),
     ],
 }
+
