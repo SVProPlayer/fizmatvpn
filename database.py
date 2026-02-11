@@ -158,15 +158,6 @@ SUBSCRIPTIONS = {
         ("Moscow_2", "🇷🇺🛜Москва"),
         ("SPB", "🇷🇺🛜Санкт-Петербург"),
     ],
-    "user_mz": [
-        ("LTE1_EU", "🇪🇺🔵МТС EU"),
-        ("LTE1_RU", "🇷🇺🔵МТС RU"),
-        ("LTE2_EU", "🇪🇺⚪МТС EU"),
-        ("LTE2_RU", "🇷🇺⚪МТС RU"),
-        ("LTE3_EU", "🇪🇺🟣МТС EU"),
-        ("LTE3_RU", "🇷🇺🟣МТС RU"),
-        ("Germany_Plus", "🇩🇪🛜Wi-Fi DE🆕"),
-    ],
     "user_andrey10.txt": [
         ("LTE1_EU", "🇪🇺🔵МегаФон №1"),
         ("LTE1_RU", "🇷🇺🔵МегаФон №2"),
@@ -210,4 +201,5 @@ SUBSCRIPTIONS = {
         ("Germany_Plus", "🇩🇪🛜Германия Wi-Fi 🆕 5413957454"),
     ],
 }
+
 
