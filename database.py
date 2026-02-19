@@ -13,10 +13,10 @@ SERVER_TEMPLATES = {
     "LTE185_WS": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@185.71.67.79:443?flow=&type=ws&host=legacy.kittystars.ru&path=/ws&security=tls&sni=legacy.kittystars.ru&fp=chrome&allowInsecure=0",
     "T2_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.104.101:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "T2_2": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.111.70:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-    "Poland": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@91.211.27.167:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
+    "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@pl.learnyouthinspire.co.uk:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=pl.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fr.learnyouthinspire.co.uk:443?flow=&type=ws&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "Germany": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@84.252.100.81:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=eurofurence.org&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
-    "NL_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@213.109.147.50:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=google.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
+    "NL_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@nl.learnyouthinspire.co.uk:443?flow=&type=ws&host=nl.learnyouthinspire.co.uk&path=/vless&security=tls&sni=nl.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "NL_3": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@144.31.30.69:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=eh.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "Hungary": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.104.204:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "Czech": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@45.151.183.175:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=google.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
@@ -77,8 +77,6 @@ SUBSCRIPTIONS = {
         ("LTE2_RU", "🇷🇺[🍀] ⚪МегаФон,МТС,Т2"),
         ("LTE3_EU", "🇪🇺[🍀] 🟣МегаФон,МТС,Т2"),
         ("LTE3_RU", "🇷🇺[🍀] 🟣МегаФон,МТС,Т2"),
-        ("T2_1", "🇭🇺[🍀] ⚫️Т2 №1"),
-        ("T2_2", "🇭🇺[🍀] ⚫️Т2 №2"),
         ("Poland", "🇵🇱[🍀] 🛜Poland №1"),
         ("Poland_Plus", "🇵🇱[🍀] 🛜Poland №2"),
         ("France", "🇫🇷[🍀] 🛜France"),
@@ -120,9 +118,6 @@ SUBSCRIPTIONS = {
         ("LTE2_RU", "🇷🇺⚪Т2 RU 1547692696"),
         ("LTE3_EU", "🇪🇺🟣Т2 EU 1547692696"),
         ("LTE3_RU", "🇷🇺🟣Т2 RU 1547692696"),
-        ("T2_1", "🇭🇺⚫️Т2 №1 1547692696"),
-        ("T2_2", "🇭🇺⚫️Т2 №2 1547692696"),
-        ("Hungary", "🇭🇺⚫️Т2 №3 1547692696"),
         ("Poland", "🇵🇱🛜Poland №1"),
         ("Poland_Plus", "🇵🇱🛜Poland №2"),
         ("France", "🇫🇷🛜France"),
@@ -208,7 +203,7 @@ SUBSCRIPTIONS = {
     ],
     "user_nikita.txt": [
         ("Poland", "🇵🇱🛜Poland №1🚀📺"),
-        ("Poland_Plus", "🇵🇱🛜Poland №2🚀🤖"),
+        ("Poland_Plus", "🇵🇱🛜Poland №2☠️"),
         ("France", "🇫🇷🛜France🤖"),
         ("Germany", "🇩🇪🛜Germany🤖"),
         ("NL_1", "🇳🇱🛜Netherlands №1📺"),
@@ -222,6 +217,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
