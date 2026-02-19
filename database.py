@@ -14,8 +14,8 @@ SERVER_TEMPLATES = {
     "T2_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.104.101:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "T2_2": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.111.70:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "Poland": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@91.211.27.167:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
-    "France": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@45.142.208.178:443?type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
-    "Germany": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@45.142.208.178:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=eurofurence.org&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
+    "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fr.learnyouthinspire.co.uk:443?flow=&type=ws&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
+    "Germany": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@84.252.100.81:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=eurofurence.org&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
     "NL_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@213.109.147.50:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=google.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "NL_3": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@144.31.30.69:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=eh.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "Hungary": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.104.204:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
@@ -24,9 +24,9 @@ SERVER_TEMPLATES = {
     "Moscow_2": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@84.252.100.168:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ie.ozone.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "SPB": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@188.225.77.238:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ie.ozone.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@151.241.100.151:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=google.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
-    "Germany_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ger25.linkey6.ru:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=LnhTEqnNvw4DWQ_SfxtPLZCASEkuKML6XgB-vCydGy0",
+    "Germany_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ger23.linkey4.ru:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=t4AElGEVr2LxWjKe57uut0LCEQ4rgwoGnQsTZu0gKk4",
     "Poland_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@pol2.linkey37.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=edge&sni=www.yandex.ru&pbk=QRvZBf0tz7ij9V7L4MjXkHoMkdDAbwc-UzyDt-PLshU",
-    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl26.linkey35.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg",
+    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl6.linkey2.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=A5ZGeLAY1cFrG3l1024PHXpDWGQ8p-af5hPsSwkqjXY",
     "LTE5_RU": "",
     
     
