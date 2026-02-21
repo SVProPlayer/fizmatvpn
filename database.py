@@ -66,6 +66,7 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮🛜Finland"),
         ("Germany", "🇩🇪🛜Germany"),
         ("Italy", "🇮🇹🛜Italy"),
+        ("France", "🇫🇷🛜France"),
         ("NL_1", "🇳🇱🛜Netherlands №1"),
         ("NL_2", "🇳🇱🛜Netherlands №2 ⭐"),
         ("NL_3", "🇳🇱🛜Netherlands №3"),
@@ -75,7 +76,6 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺🛜Moscow №1 🕊️"),
         ("Moscow_2", "🇷🇺🛜Moscow №2 🕊️"),
         ("USA", "🇺🇸🛜USA"),
-        ("France", "🇫🇷🛜France (пока не работает)"),
     ],
     "kustvpn.txt": [
         ("LTE1_EU", "🇪🇺[🍀] 🔵МегаФон,МТС,Т2"),
@@ -90,6 +90,7 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮[🍀] 🛜Finland"),
         ("Germany", "🇩🇪[🍀] 🛜Germany"),
         ("Italy", "🇮🇹[🍀] 🛜Italy"),
+        ("France", "🇫🇷[🍀] 🛜France"),
         ("NL_1", "🇳🇱[🍀] 🛜Netherlands №1"),
         ("NL_2", "🇳🇱[🍀] 🛜Netherlands №2 ⭐"),
         ("NL_3", "🇳🇱[🍀] 🛜Netherlands №3"),
@@ -99,7 +100,6 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺[🍀] 🛜Moscow №1 🕊️"),
         ("Moscow_2", "🇷🇺[🍀] 🛜Moscow №2 🕊️"),
         ("USA", "🇺🇸[🍀] 🛜USA"),
-        ("France", "🇫🇷[❌] 🛜France"),
     ],
     "user_ivan.txt": [
         ("LTE1_EU", "🇪🇺🔵МегаФон №1"),
@@ -114,6 +114,7 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮🛜Finland"),
         ("Germany", "🇩🇪🛜Germany 🤖"),
         ("Italy", "🇮🇹🛜Italy 🤖"),
+        ("France", "🇫🇷🛜France 🤖"),
         ("NL_1", "🇳🇱🛜Netherlands №1"),
         ("NL_2", "🇳🇱🛜Netherlands №2 ⭐"),
         ("NL_3", "🇳🇱🛜Netherlands №3 🤖"),
@@ -123,7 +124,6 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺🛜Moscow №1 🕊️"),
         ("Moscow_2", "🇷🇺🛜Moscow №2 🕊️"),
         ("USA", "🇺🇸🛜USA"),
-        ("France", "🇫🇷🛜France (пока не работает)"),
     ],
     "user_egor.txt": [
         ("LTE1_EU", "🇪🇺🔵Т2 EU 1547692696"),
@@ -138,6 +138,7 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮🛜Finland"),
         ("Germany", "🇩🇪🛜Germany"),
         ("Italy", "🇮🇹🛜Italy"),
+        ("France", "🇫🇷🛜France"),
         ("NL_1", "🇳🇱🛜Netherlands №1"),
         ("NL_2", "🇳🇱🛜Netherlands №2 ⭐"),
         ("NL_3", "🇳🇱🛜Netherlands №3"),
@@ -147,7 +148,6 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺🛜Moscow №1 🕊️"),
         ("Moscow_2", "🇷🇺🛜Moscow №2 🕊️"),
         ("USA", "🇺🇸🛜USA"),
-        ("France", "🇫🇷🛜France (пока не работает)"),
     ],
     "user_m.txt": [
         ("LTE1_EU", "🇪🇺🔵МТС №1"),
@@ -196,6 +196,7 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮🛜Finland"),
         ("Germany", "🇩🇪🛜Germany"),
         ("Italy", "🇮🇹🛜Italy"),
+        ("France", "🇫🇷🛜France"),
         ("NL_1", "🇳🇱🛜Netherlands №1"),
         ("NL_2", "🇳🇱🛜Netherlands №2 ⭐"),
         ("NL_3", "🇳🇱🛜Netherlands №3"),
@@ -205,7 +206,6 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺🛜Moscow №1 🕊️"),
         ("Moscow_2", "🇷🇺🛜Moscow №2 🕊️"),
         ("USA", "🇺🇸🛜USA"),
-        ("France", "🇫🇷🛜France (пока не работает)"),
     ],
     "user_dima.txt": [
         ("LTE1_EU", "🇪🇺🔵МегаФон №1 6102762847"),
@@ -239,6 +239,7 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮🛜Finland🚀🤖"),
         ("Germany", "🇩🇪🛜Germany🤖"),
         ("Italy", "🇮🇹🛜Italy 🤖"),
+        ("France", "🇫🇷🛜France 🤖"),
         ("NL_1", "🇳🇱🛜Netherlands №1📺"),
         ("NL_2", "🇳🇱🛜Netherlands №2🚀"),
         ("NL_3", "🇳🇱🛜Netherlands №3🐌🤖"),
@@ -248,9 +249,9 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺🛜Moscow №1📺"),
         ("Moscow_2", "🇷🇺🛜Moscow №2📺"),
         ("USA", "🇺🇸🛜USA"),
-        ("France", "🇫🇷🛜France (пока не работает)"),
     ],
 }
+
 
 
 
