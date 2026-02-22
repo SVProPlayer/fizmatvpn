@@ -13,7 +13,7 @@ SERVER_TEMPLATES = {
     "LTE185_WS": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@185.71.67.79:443?flow=&type=ws&host=legacy.kittystars.ru&path=/ws&security=tls&sni=legacy.kittystars.ru&fp=chrome&allowInsecure=0",
     "T2_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.104.101:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "T2_2": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.111.70:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-    "Finland": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@fl13.linkey21.ru:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=hda1r36mXBB1qKWr8vv12bzIjye0t-JrqScgHWB96Tc",
+    "Finland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fi.learnyouthinspire.co.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=fi.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@pl.learnyouthinspire.co.uk:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=pl.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fr.learnyouthinspire.co.uk:443?flow=&type=ws&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "Germany": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@84.252.100.81:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=eurofurence.org&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
@@ -251,6 +251,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
