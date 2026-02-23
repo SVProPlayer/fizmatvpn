@@ -15,9 +15,9 @@ SERVER_TEMPLATES = {
     "T2_2": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.111.70:3443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "Finland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fi.learnyouthinspire.co.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=fi.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@pl.learnyouthinspire.co.uk:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=pl.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
-    "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fr.learnyouthinspire.co.uk:443?flow=&type=ws&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
-    "Germany": "trojan://LXne8WPQvfoXbnH43VThdSUbfY3VCq@84.252.100.81:8443?type=tcp&headerType=none&security=reality&fp=chrome&sni=eurofurence.org&pbk=VoThhJ_pOwFXUCjB8DCpK3cM1ymeZKV4fBmo6audKVQ&sid=9c2378562188c3cb&spx=/",
-    "Italy": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@it.learnyouthinspire.co.uk:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=it.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
+    "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@84.252.100.81:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=fr.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
+    "Germany": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@84.252.100.81:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=de.chocolatemango.live&fp=chrome&allowInsecure=0",
+    "Italy": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@45.142.208.178:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=it.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "NL_1": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@nl.chocolatemango.live:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=nl.chocolatemango.live&fp=chrome&allowInsecure=0",
     "NL_3": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@144.31.30.69:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=eh.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "Hungary": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.13.104.204:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=api-maps.yandex.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
@@ -251,6 +251,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
