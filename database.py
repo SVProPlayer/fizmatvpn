@@ -96,7 +96,7 @@ SUBSCRIPTIONS = {
         ("Moscow_1", "🇷🇺[🍀] 🛜Moscow №1 🕊️"),
         ("Moscow_2", "🇷🇺[🍀] 🛜Moscow №2 🕊️"),
         ("Czech", "🇨🇿[🍀] 🛜Czech.Rep"),
-        ("Finland", "🇫🇮🛜Finland"),
+        ("Finland", "🇫🇮[🍀] 🛜Finland"),
         ("USA", "🇺🇸[🍀] 🛜USA"),
     ],
     "user_ivan.txt": [
@@ -244,6 +244,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
