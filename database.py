@@ -229,6 +229,14 @@ SUBSCRIPTIONS = {
         ("Italy", "🇮🇹🛜Италия 🆕 5413957454"),
     ],
     "user_nikita.txt": [
+        ("LTE4_EU", "🇪🇺🟠МТС №1"),
+        ("LTE4_RU", "🇷🇺🟠МТС №2"),
+        ("LTE1_EU", "🇪🇺🔵МТС №3"),
+        ("LTE1_RU", "🇷🇺🔵МТС №4"),
+        ("LTE3_EU", "🇪🇺🟣МТС №5"),
+        ("LTE3_RU", "🇷🇺🟣МТС №6"),
+        ("LTE2_EU", "🇪🇺⚪МТС №7"),
+        ("LTE2_RU", "🇷🇺⚪МТС №8"),
         ("Poland", "🇵🇱🛜Poland 🚀📺"),
         ("NL_1", "🇳🇱🛜Netherlands №1 🚀"),
         ("NL_2", "🇳🇱🛜Netherlands №2 🚀"),
@@ -244,6 +252,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
