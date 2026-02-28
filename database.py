@@ -1,4 +1,4 @@
-# База "тел" серверов (без знака # и названия)
+
 SERVER_TEMPLATES = {
     "LTE1_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@146.185.243.18:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "LTE1_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@146.185.243.18:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
@@ -84,7 +84,7 @@ SUBSCRIPTIONS = {
         #("LTE3_RU", "🇷🇺[🍀] 🟣МегаФон,МТС,Т2"),
         ("LTE2_EU", "🇪🇺[🍀] ⚪МегаФон,МТС,Т2"),
         ("LTE2_RU", "🇷🇺[🍀] ⚪МегаФон,МТС,Т2"),
-        ("LTE_Plus", "🇷🇺[🍀] 🔴Дневник и BS(150МБ/24ч)"),
+        ("LTE_Plus", "🇷🇺[🍀] 🔴Дневник и BS(300МБ/24ч)"),
         ("Poland", "🇵🇱[🍀] 🛜Poland ⭐"),
         ("NL_1", "🇳🇱[🍀] 🛜Netherlands №1 ⭐"),
         ("NL_2", "🇳🇱[🍀] 🛜Netherlands №2 ⭐"),
