@@ -29,7 +29,7 @@ SERVER_TEMPLATES = {
     "Germany_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ger23.linkey4.ru:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=t4AElGEVr2LxWjKe57uut0LCEQ4rgwoGnQsTZu0gKk4",
     "Poland_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@pol2.linkey37.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=edge&sni=www.yandex.ru&pbk=QRvZBf0tz7ij9V7L4MjXkHoMkdDAbwc-UzyDt-PLshU",
     "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl6.linkey2.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=A5ZGeLAY1cFrG3l1024PHXpDWGQ8p-af5hPsSwkqjXY",
-    "LTE5_RU": "",
+    "LTE_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ruswl1.linkey45.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.x5.ru&pbk=_V2raeSWlCzTlrkTVL5hYNjOxihyv4nO5CedWHDlRyo",
     
     
     
@@ -84,6 +84,7 @@ SUBSCRIPTIONS = {
         #("LTE3_RU", "🇷🇺[🍀] 🟣МегаФон,МТС,Т2"),
         ("LTE2_EU", "🇪🇺[🍀] ⚪МегаФон,МТС,Т2"),
         ("LTE2_RU", "🇷🇺[🍀] ⚪МегаФон,МТС,Т2"),
+        ("LTE_Plus", "🇷🇺[🍀] 🔴Дневник и BS(150МБ/сутки)"),
         ("Poland", "🇵🇱[🍀] 🛜Poland ⭐"),
         ("NL_1", "🇳🇱[🍀] 🛜Netherlands №1 ⭐"),
         ("NL_2", "🇳🇱[🍀] 🛜Netherlands №2 ⭐"),
