@@ -28,7 +28,7 @@ SERVER_TEMPLATES = {
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@151.241.100.151:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=google.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "Germany_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ger23.linkey4.ru:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=t4AElGEVr2LxWjKe57uut0LCEQ4rgwoGnQsTZu0gKk4",
     "Poland_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@pol2.linkey37.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=edge&sni=www.yandex.ru&pbk=QRvZBf0tz7ij9V7L4MjXkHoMkdDAbwc-UzyDt-PLshU",
-    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl6.linkey2.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=A5ZGeLAY1cFrG3l1024PHXpDWGQ8p-af5hPsSwkqjXY",
+    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@s4.nodu11.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=vpQIgvz8Tj-9FfJ-lK3JmTy-9LKoppDhtiwKcCsUfC8",
     "LTE_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ruswl1.linkey45.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.x5.ru&pbk=_V2raeSWlCzTlrkTVL5hYNjOxihyv4nO5CedWHDlRyo",
     
     
@@ -84,7 +84,7 @@ SUBSCRIPTIONS = {
         #("LTE3_RU", "🇷🇺[🍀] 🟣МегаФон,МТС,Т2"),
         ("LTE2_EU", "🇪🇺[🍀] ⚪МегаФон,МТС,Т2"),
         ("LTE2_RU", "🇷🇺[🍀] ⚪МегаФон,МТС,Т2"),
-        ("LTE_Plus", "🇷🇺[🍀] 🔴Дневник и BS(150МБ/сутки)"),
+        ("LTE_Plus", "🇷🇺[🍀] 🔴Дневник и BS(150МБ/24ч)"),
         ("Poland", "🇵🇱[🍀] 🛜Poland ⭐"),
         ("NL_1", "🇳🇱[🍀] 🛜Netherlands №1 ⭐"),
         ("NL_2", "🇳🇱[🍀] 🛜Netherlands №2 ⭐"),
@@ -247,6 +247,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
