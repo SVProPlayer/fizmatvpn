@@ -4,8 +4,8 @@ SERVER_TEMPLATES = {
     "LTE1_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@146.185.243.18:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "LTE2_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@37.139.32.238:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "LTE2_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@37.139.32.238:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
-    "LTE3_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@5.188.142.120:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
-    "LTE3_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@5.188.142.120:5443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+    "LTE3_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@87.239.105.216:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
+    "LTE3_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@87.239.105.216:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "LTE4_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@146.185.240.199:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "LTE4_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@146.185.240.199:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "SIGN": "vless://perez@127.0.0.1:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=just-a-sign",
@@ -40,8 +40,8 @@ SUBSCRIPTIONS = {
     "beeline.txt": [
         ("LTE4_EU", "🇪🇺🟠Билайн №1"),
         ("LTE4_RU", "🇷🇺🟠Билайн №2"),
-        #("LTE3_EU", "🇪🇺🟣Билайн №3"),
-        #("LTE3_RU", "🇷🇺🟣Билайн №4"),
+        ("LTE3_EU", "🇪🇺🟣Билайн №3"),
+        ("LTE3_RU", "🇷🇺🟣Билайн №4"),
         ("LTE1_EU", "🇪🇺🔵Билайн №5"),
         ("LTE1_RU", "🇷🇺🔵Билайн №6"),
         ("LTE2_EU", "🇪🇺⚪Билайн №7"),
@@ -51,8 +51,8 @@ SUBSCRIPTIONS = {
     "user_polina.txt": [
         ("LTE4_EU", "🇪🇺🧡МегаФон №1"),
         ("LTE4_RU", "🇷🇺🧡МегаФон №2"),
-        #("LTE3_EU", "🇪🇺💜МегаФон №3"),
-        #("LTE3_RU", "🇷🇺💜МегаФон №4"),
+        ("LTE3_EU", "🇪🇺💜МегаФон №3"),
+        ("LTE3_RU", "🇷🇺💜МегаФон №4"),
         ("LTE1_EU", "🇪🇺💙МегаФон №5"),
         ("LTE1_RU", "🇷🇺💙МегаФон №6"),
         ("LTE2_EU", "🇪🇺🤍МегаФон №7"),
@@ -75,8 +75,8 @@ SUBSCRIPTIONS = {
     "kustvpn.txt": [
         ("LTE4_EU", "🇪🇺[🍀] 🟠МегаФон,МТС,Т2"),
         ("LTE4_RU", "🇷🇺[🍀] 🟠МегаФон,МТС,Т2"),
-        #("LTE3_EU", "🇪🇺[🍀] 🟣МегаФон,МТС,Т2"),
-        #("LTE3_RU", "🇷🇺[🍀] 🟣МегаФон,МТС,Т2"),
+        ("LTE3_EU", "🇪🇺[🍀] 🟣МегаФон,МТС,Т2"),
+        ("LTE3_RU", "🇷🇺[🍀] 🟣МегаФон,МТС,Т2"),
         ("LTE1_EU", "🇪🇺[🍀] 🔵МегаФон,МТС,Т2"),
         ("LTE1_RU", "🇷🇺[🍀] 🔵МегаФон,МТС,Т2"),
         ("LTE2_EU", "🇪🇺[🍀] ⚪МегаФон,МТС,Т2"),
@@ -98,8 +98,8 @@ SUBSCRIPTIONS = {
     "user_ivan.txt": [
         ("LTE4_EU", "🇪🇺🟠МегаФон №1"),
         ("LTE4_RU", "🇷🇺🟠МегаФон №2"),
-        #("LTE3_EU", "🇪🇺🟣МегаФон №3"),
-        #("LTE3_RU", "🇷🇺🟣МегаФон №4"),
+        ("LTE3_EU", "🇪🇺🟣МегаФон №3"),
+        ("LTE3_RU", "🇷🇺🟣МегаФон №4"),
         ("LTE1_EU", "🇪🇺🔵МегаФон №5"),
         ("LTE1_RU", "🇷🇺🔵МегаФон №6"),
         ("LTE2_EU", "🇪🇺⚪МегаФон №7"),
@@ -120,8 +120,8 @@ SUBSCRIPTIONS = {
     "user_egor.txt": [
         ("LTE4_EU", "🇪🇺🟠Т2 EU 1547692696"),
         ("LTE4_RU", "🇷🇺🟠Т2 RU 1547692696"),
-        #("LTE3_EU", "🇪🇺🟣Т2 RU 1547692696"),
-        #("LTE3_RU", "🇷🇺🟣Т2 RU 1547692696"),
+        ("LTE3_EU", "🇪🇺🟣Т2 RU 1547692696"),
+        ("LTE3_RU", "🇷🇺🟣Т2 RU 1547692696"),
         ("LTE1_EU", "🇪🇺🔵Т2 EU 1547692696"),
         ("LTE1_RU", "🇷🇺🔵Т2 RU 1547692696"),
         ("LTE2_EU", "🇪🇺⚪Т2 EU 1547692696"),
@@ -142,8 +142,8 @@ SUBSCRIPTIONS = {
     "user_m.txt": [
         ("LTE4_EU", "🇪🇺🟠МТС №1"),
         ("LTE4_RU", "🇷🇺🟠МТС №2"),
-        #("LTE3_EU", "🇪🇺🟣МТС №3"),
-        #("LTE3_RU", "🇷🇺🟣МТС №4"),
+        ("LTE3_EU", "🇪🇺🟣МТС №3"),
+        ("LTE3_RU", "🇷🇺🟣МТС №4"),
         ("LTE1_EU", "🇪🇺🔵МТС №5"),
         ("LTE1_RU", "🇷🇺🔵МТС №6"),
         ("LTE2_EU", "🇪🇺⚪МТС №7"),
@@ -157,8 +157,8 @@ SUBSCRIPTIONS = {
     "user_grisha.txt": [
         ("LTE4_EU", "🇪🇺🟠МТС №1"),
         ("LTE4_RU", "🇷🇺🟠МТС №2"),
-        #("LTE3_EU", "🇪🇺🟣МТС №3"),
-        #("LTE3_RU", "🇷🇺🟣МТС №4"),
+        ("LTE3_EU", "🇪🇺🟣МТС №3"),
+        ("LTE3_RU", "🇷🇺🟣МТС №4"),
         ("LTE1_EU", "🇪🇺🔵МТС №5"),
         ("LTE1_RU", "🇷🇺🔵МТС №6"),
         ("LTE2_EU", "🇪🇺⚪МТС №7"),
@@ -175,8 +175,8 @@ SUBSCRIPTIONS = {
     "user_andrey10.txt": [
         ("LTE4_EU", "🇪🇺🟠МегаФон №1"),
         ("LTE4_RU", "🇷🇺🟠МегаФон №2"),
-        #("LTE3_EU", "🇪🇺🟣МегаФон №3"),
-        #("LTE3_RU", "🇷🇺🟣МегаФон №4"),
+        ("LTE3_EU", "🇪🇺🟣МегаФон №3"),
+        ("LTE3_RU", "🇷🇺🟣МегаФон №4"),
         ("LTE1_EU", "🇪🇺🔵МегаФон №5"),
         ("LTE1_RU", "🇷🇺🔵МегаФон №6"),
         ("LTE2_EU", "🇪🇺⚪МегаФон №7"),
@@ -202,8 +202,8 @@ SUBSCRIPTIONS = {
         ("Italy", "🇮🇹🛜Италия 🆕 6102762847"),
     ],
     "user_radaa.txt": [
-        #("LTE3_EU", "🇪🇺🟣МТС EU 1756521878"),
-        #("LTE3_RU", "🇷🇺🟣МТС RU 1756521878"),
+        ("LTE3_EU", "🇪🇺🟣МТС EU 1756521878"),
+        ("LTE3_RU", "🇷🇺🟣МТС RU 1756521878"),
         ("LTE1_EU", "🇪🇺🔵МТС EU 1756521878"),
         ("LTE1_RU", "🇷🇺🔵МТС RU 1756521878"),
         ("LTE2_EU", "🇪🇺⚪МТС EU 1756521878"),
@@ -213,8 +213,8 @@ SUBSCRIPTIONS = {
     "user_vovo.txt": [
         ("LTE4_EU", "🇪🇺🟠МТС EU 5413957454"),
         ("LTE4_RU", "🇷🇺🟠МТС RU 5413957454"),
-        #("LTE3_EU", "🇪🇺🟣МТС EU 5413957454"),
-        #("LTE3_RU", "🇷🇺🟣МТС RU 5413957454"),
+        ("LTE3_EU", "🇪🇺🟣МТС EU 5413957454"),
+        ("LTE3_RU", "🇷🇺🟣МТС RU 5413957454"),
         ("LTE1_EU", "🇪🇺🔵МТС EU 5413957454"),
         ("LTE1_RU", "🇷🇺🔵МТС RU 5413957454"),
         ("LTE2_EU", "🇪🇺⚪МТС EU 5413957454"),
@@ -224,8 +224,8 @@ SUBSCRIPTIONS = {
     "user_nikita.txt": [
         ("LTE4_EU", "🇪🇺🟠МТС №1"),
         ("LTE4_RU", "🇷🇺🟠МТС №2"),
-        #("LTE3_EU", "🇪🇺🟣МТС №3"),
-        #("LTE3_RU", "🇷🇺🟣МТС №4"),
+        ("LTE3_EU", "🇪🇺🟣МТС №3"),
+        ("LTE3_RU", "🇷🇺🟣МТС №4"),
         ("LTE1_EU", "🇪🇺🔵МТС №5"),
         ("LTE1_RU", "🇷🇺🔵МТС №6"),
         ("LTE2_EU", "🇪🇺⚪МТС №7"),
@@ -244,6 +244,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
 }
+
 
 
 
