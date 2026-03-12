@@ -1,2 +1,0 @@
-vless://dead-server-XD@0.0.0.0:443?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=follow&pbk=the&sid=rules&spx=please:3#⚠️Подписка%20отключена
-vless://dead-server-XD@127.0.0.1:443?flow=&type=tcp&headerType=none&security=reality&fp=chrome&sni=follow&pbk=the&sid=rules&spx=please:3#напиши%20в%20лс
