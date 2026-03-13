@@ -1,0 +1,1 @@
+vless://perez@127.0.0.1:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=just-a-sign#%F0%9F%87%AA%F0%9F%87%BA%F0%9F%94%B5%D0%9C%D0%B5%D0%B3%D0%B0%D0%A4%D0%BE%D0%BD%20%E2%84%961%206102762847
