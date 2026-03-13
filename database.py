@@ -20,7 +20,7 @@ SERVER_TEMPLATES = {
     "Moscow_2": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@84.252.100.168:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ie.ozone.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "SPB": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@188.225.77.238:2443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=ie.ozone.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@usa-va.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=usa-va.chocolatemango.live&fp=chrome&allowInsecure=0",
-    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@s4.nodu11.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=vpQIgvz8Tj-9FfJ-lK3JmTy-9LKoppDhtiwKcCsUfC8",
+    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@s2.nodu5.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=qmcYHehKARtssBzntvgEAShhfFmYfm72i9JOwYrudU4",
     "LTE_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ruswl1.linkey45.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.x5.ru&pbk=_V2raeSWlCzTlrkTVL5hYNjOxihyv4nO5CedWHDlRyo",
     "SPB_Private": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@87.239.105.216:55553?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "Sweden": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@se.learnyouthinspire.co.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=se.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
