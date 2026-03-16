@@ -234,6 +234,29 @@ SUBSCRIPTIONS = {
         ("Finland", "🇫🇮🛜Finland🤖"),
         ("USA", "🇺🇸🛜USA🤖"),
     ],
+    "user_nikita_clash.txt": {
+        "clash": True,
+        "servers": [
+        ("Poland", "🇵🇱🛜Poland"),
+        ("NL_2", "🇳🇱🛜Netherlands"),
+        ("Sweden", "🇸🇪🛜Sweden"),
+        ("France", "🇫🇷🛜France🤖"),
+        ("Germany", "🇩🇪🛜Germany🤖"),
+        ("Italy", "🇮🇹🛜Italy"),
+        ("SPB", "🇷🇺🛜St.Petersburg 🕊️"),
+        ("Moscow_1", "🇷🇺🛜Moscow 🕊️"),
+        ("Finland", "🇫🇮🛜Finland🤖"),
+        ("USA", "🇺🇸🛜USA🤖"),
+        ("LTE4_EU", "🇪🇺🟠МТС №1"),
+        ("LTE4_RU", "🇷🇺🟠МТС №2"),
+        ("LTE3_EU", "🇪🇺🟣МТС №3"),
+        ("LTE3_RU", "🇷🇺🟣МТС №4"),
+        ("LTE1_EU", "🇪🇺🔵МТС №5"),
+        ("LTE1_RU", "🇷🇺🔵МТС №6"),
+        ("LTE2_EU", "🇪🇺⚪МТС №7"),
+        ("LTE2_RU", "🇷🇺⚪МТС №8"),
+    ],
+    }
 }
 
 
