@@ -257,11 +257,11 @@ SUBSCRIPTIONS = {
         ("LTE2_EU", "🇪🇺⚪МТС №7"),
         ("LTE2_RU", "🇷🇺⚪МТС №8"),
     ],
-    }
-    "user_d.txt": [
+        "user_d.txt": [
         ("SPB_Private_WiFi", "🇷🇺Санкт-Петербург Wi-Fi"),
         ("SPB_Private", "🇷🇺Моб. интернет"),
     ],
+    }
 }
 
 
