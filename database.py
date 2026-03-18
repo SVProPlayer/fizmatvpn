@@ -22,8 +22,9 @@ SERVER_TEMPLATES = {
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@usa-va.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=usa-va.chocolatemango.live&fp=chrome&allowInsecure=0",
     "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@s2.nodu5.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=qmcYHehKARtssBzntvgEAShhfFmYfm72i9JOwYrudU4",
     "LTE_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ruswl1.linkey45.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.x5.ru&pbk=_V2raeSWlCzTlrkTVL5hYNjOxihyv4nO5CedWHDlRyo",
-    "SPB_Private": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@87.239.105.216:55553?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+    "SPB_Private": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@146.185.240.199:55553?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "Sweden": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@se.learnyouthinspire.co.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=se.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
+    "SPB_Private_WiFi": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@led-ru.learnyouthinspire.co.uk:443?flow=&type=ws&host=led-ru.learnyouthinspire.co.uk&path=/vless&security=tls&sni=led-ru.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     
     
     
@@ -257,6 +258,10 @@ SUBSCRIPTIONS = {
         ("LTE2_RU", "🇷🇺⚪МТС №8"),
     ],
     }
+    "user_d.txt": [
+        ("SPB_Private_WiFi", "🇷🇺Санкт-Петербург Wi-Fi"),
+        ("SPB_Private", "🇷🇺Моб. интернет"),
+    ],
 }
 
 
