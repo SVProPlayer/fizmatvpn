@@ -9,18 +9,6 @@ proxies:
     servername: pl.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-  - name: "🇳🇱🛜Netherlands"
-    type: vless
-    server: s2.nodu5.ru
-    port: 443
-    uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
-    udp: true
-    tls: true
-    servername: www.vk.com
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: qmcYHehKARtssBzntvgEAShhfFmYfm72i9JOwYrudU4
   - name: "🇸🇪🛜Sweden"
     type: vless
     server: se.learnyouthinspire.co.uk
@@ -201,7 +189,6 @@ proxy-groups:
     type: select
     proxies:
       - "🇵🇱🛜Poland🤖"
-      - "🇳🇱🛜Netherlands"
       - "🇸🇪🛜Sweden"
       - "🇫🇷🛜France🤖"
       - "🇩🇪🛜Germany🤖"
