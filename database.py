@@ -85,6 +85,7 @@ SUBSCRIPTIONS = {
         ("WLTE_RU", "🇷🇺[🍀] ⚪Моб. интернет"),
         ("SPB_Private", "🇷🇺[🍀] 🔴Дневник (моб.интернет)"),
         ("Poland", "🇵🇱[🍀] 🛜Poland"),
+        ("Germany_K", "🇩🇪[🍀] 🛜Germany №2"),
         #("NL_2", "🇳🇱[🍀] 🛜Netherlands"),
         ("Sweden", "🇸🇪[🍀] 🛜Sweden"),
         ("France", "🇫🇷[🍀] 🛜France"),
@@ -229,6 +230,7 @@ SUBSCRIPTIONS = {
         ("WLTE_EU", "🇪🇺⚪МТС №7"),
         ("WLTE_RU", "🇷🇺⚪МТС №8"),
         ("Poland", "🇵🇱🛜Poland🤖"),
+        ("Germany_K", "🇩🇪🛜Germany №2"),
         #("NL_2", "🇳🇱🛜Netherlands"),
         ("Sweden", "🇸🇪🛜Sweden"),
         ("France", "🇫🇷🛜France🤖"),
@@ -247,6 +249,7 @@ SUBSCRIPTIONS = {
         "clash": True,
         "servers": [
         ("Poland", "🇵🇱🛜Poland🤖"),
+        ("Germany_K", "🇩🇪🛜Germany №2"),
         #("NL_2", "🇳🇱🛜Netherlands"),
         ("Sweden", "🇸🇪🛜Sweden"),
         ("France", "🇫🇷🛜France🤖"),
