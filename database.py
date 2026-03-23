@@ -2,8 +2,8 @@
 SERVER_TEMPLATES = {
     "DLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "DLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
-    "RLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@raccoon.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-    "RLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@raccoon.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=ads.x5.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+    "RLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@raccoon.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+    "RLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@raccoon.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "FLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fox.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "FLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@fox.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "WLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@37.139.32.238:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
