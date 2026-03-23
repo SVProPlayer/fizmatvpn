@@ -9,6 +9,19 @@ proxies:
     servername: pl.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
     client-fingerprint: chrome
+  - name: "🇩🇪🛜Germany №2"
+    type: vless
+    server: node-germany2.squickme.ru
+    port: 443
+    uuid: 4bfc0dff-5160-476f-b3a4-e5bea984e83e
+    udp: true
+    tls: true
+    servername: yandex.net
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 6IedBM7xY_DRfmWSiRdmoEpQBw8wIsFPUt1a9rGxOlQ
+      short-id: 45665445
   - name: "🇸🇪🛜Sweden"
     type: vless
     server: se.learnyouthinspire.co.uk
@@ -189,6 +202,7 @@ proxy-groups:
     type: select
     proxies:
       - "🇵🇱🛜Poland🤖"
+      - "🇩🇪🛜Germany №2"
       - "🇸🇪🛜Sweden"
       - "🇫🇷🛜France🤖"
       - "🇩🇪🛜Germany🤖"
