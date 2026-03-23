@@ -27,7 +27,7 @@ SERVER_TEMPLATES = {
     "LTE_Plus": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@ruswl1.linkey45.ru:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.x5.ru&pbk=_V2raeSWlCzTlrkTVL5hYNjOxihyv4nO5CedWHDlRyo",
     "Sweden": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@se.learnyouthinspire.co.uk:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=tls&sni=se.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     "SPB_Private_WiFi": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@led-ru.learnyouthinspire.co.uk:443?flow=&type=ws&host=led-ru.learnyouthinspire.co.uk&path=/vless&security=tls&sni=led-ru.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
-    
+    "Germany_K": "vless://4bfc0dff-5160-476f-b3a4-e5bea984e83e@node-germany2.squickme.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=yandex.net&pbk=6IedBM7xY_DRfmWSiRdmoEpQBw8wIsFPUt1a9rGxOlQ&sid=45665445&spx=/",
     
     
     
@@ -63,6 +63,7 @@ SUBSCRIPTIONS = {
         ("SIGN", "Если не работает – обнови🔄"),
         #("SIGN", "Never forget 🔄"),
         ("Poland", "🇵🇱🛜Poland"),
+        ("Germany_K", "🇩🇪🛜Germany №2"),
         #("NL_2", "🇳🇱🛜Netherlands"),
         ("Sweden", "🇸🇪🛜Sweden"),
         ("France", "🇫🇷🛜France"),
