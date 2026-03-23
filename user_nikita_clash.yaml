@@ -115,7 +115,7 @@ proxies:
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
-    servername: ads.x5.ru
+    servername: max.ru
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
@@ -127,7 +127,7 @@ proxies:
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
-    servername: ads.x5.ru
+    servername: max.ru
     flow: xtls-rprx-vision
     client-fingerprint: chrome
     reality-opts:
