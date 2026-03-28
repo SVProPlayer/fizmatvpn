@@ -286,6 +286,27 @@ SUBSCRIPTIONS = {
         ("WLTE_EU", "🇪🇺⚪МТС №7"),
         ("WLTE_RU", "🇷🇺⚪МТС №8"),
     ],
+    "kust_clash.txt": {
+        "clash": True,
+        "servers": [
+        ("Germany", "🇩🇪[🍀] 🛜Germany №1"),
+        ("Poland_S", "🇵🇱[🍀] 🛜Poland №1"),
+        ("Poland", "🇵🇱[🍀] 🛜Poland №2"),
+        ("NL_2", "🇳🇱[🍀] 🛜Netherlands"),
+        ("Estonia_S", "🇪🇪[🍀] 🛜Estonia"),
+        ("France", "🇫🇷[🍀] 🛜France"),
+        ("Germany_S", "🇩🇪[🍀] 🛜Germany №2"),
+        ("Italy", "🇮🇹[🍀] 🛜Italy"),
+        ("Ukraine_S", "🇺🇦[🍀] 🛜Ukraine"),
+        ("SPB", "🇷🇺[🍀] 🛜St.Petersburg 🕊️"),
+        #("Sweden", "🇸🇪[🍀] 🛜Sweden"),
+        #("Moscow_1", "🇷🇺[🍀] 🛜Moscow 🕊️"),
+        #("Finland", "🇫🇮[🍀] 🛜Finland"),
+        ("USA", "🇺🇸[🍀] 🛜USA"),
+        ("DLTE_EU", "🇪🇺[🍀] 🟢Моб. интернет"),
+        ("DLTE_RU", "🇷🇺[🍀] 🟢Моб. интернет"),
+        ("SPB_Private", "🇷🇺[🍀] 🔴Дневник (моб.интернет)"),
+    ],
     }
 }
 
