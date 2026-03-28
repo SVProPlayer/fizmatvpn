@@ -285,7 +285,8 @@ SUBSCRIPTIONS = {
         ("FLTE_RU", "🇷🇺🟠МТС №6"),
         ("WLTE_EU", "🇪🇺⚪МТС №7"),
         ("WLTE_RU", "🇷🇺⚪МТС №8"),
-    ],
+    ]
+    },
     "kust_clash.txt": {
         "clash": True,
         "servers": [
@@ -306,8 +307,8 @@ SUBSCRIPTIONS = {
         ("DLTE_EU", "🇪🇺[🍀] 🟢Моб. интернет"),
         ("DLTE_RU", "🇷🇺[🍀] 🟢Моб. интернет"),
         ("SPB_Private", "🇷🇺[🍀] 🔴Дневник (моб.интернет)"),
-    ],
-    }
+    ]
+    },
 }
 
 
