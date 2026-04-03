@@ -34,7 +34,7 @@ proxies:
     client-fingerprint: chrome
   - name: "🇳🇱[🍀] 🛜Netherlands"
     type: vless
-    server: s3.nodu3.ru
+    server: nl27.linkey35.ru
     port: 443
     uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
     udp: true
@@ -43,7 +43,7 @@ proxies:
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
-      public-key: 5QZcakEw6H3Gv_l-lbOuWfVSxlNlnLf0MOzutNAb90Y
+      public-key: TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg
   - name: "🇪🇪[🍀] 🛜Estonia"
     type: vless
     server: es.subv.ru
@@ -69,12 +69,12 @@ proxies:
     client-fingerprint: chrome
   - name: "🇩🇪[🍀] 🛜Germany №2"
     type: vless
-    server: dem.cdns.su
+    server: de.subv.ru
     port: 443
     uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: radiocult.su
+    servername: iui.su
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
