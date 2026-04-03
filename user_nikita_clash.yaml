@@ -1,14 +1,37 @@
 proxies:
+  - name: "Тех. работы до 13:00"
+    type: vless
+    server: 127.0.0.1
+    port: 443
+    uuid: perez
+    udp: true
+    tls: true
+    servername: www.vk.com
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: just-a-sign
+  - name: "После 13:00 обновите"
+    type: vless
+    server: 127.0.0.1
+    port: 443
+    uuid: perez
+    udp: true
+    tls: true
+    servername: www.vk.com
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: just-a-sign
   - name: "🇩🇪🛜Germany №1"
     type: vless
-    server: de.learnyouthinspire.co.uk
-    port: 2053
+    server: de-nuremberg.chocolatemango.live
+    port: 443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
-    servername: de.chocolatemango.live
+    servername: de-nuremberg.chocolatemango.live
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: "🇵🇱🛜Poland №1"
     type: vless
     server: pl.cdns.su
@@ -22,16 +45,6 @@ proxies:
     reality-opts:
       public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
       short-id: 3429a41453f39be2
-  - name: "🇵🇱🛜Poland №2"
-    type: vless
-    server: de.learnyouthinspire.co.uk
-    port: 2087
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: pl.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: "🇳🇱🛜Netherlands"
     type: vless
     server: nl27.linkey35.ru
@@ -57,16 +70,6 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 6a59ae0dc685b1c2
-  - name: "🇫🇷🛜France"
-    type: vless
-    server: fr.learnyouthinspire.co.uk
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: fr.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: "🇩🇪🛜Germany №2"
     type: vless
     server: de.subv.ru
@@ -80,16 +83,6 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "🇮🇹🛜Italy"
-    type: vless
-    server: it.learnyouthinspire.co.uk
-    port: 8443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: it.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: "🇺🇦🛜Ukraine"
     type: vless
     server: fua.subv.ru
@@ -103,28 +96,15 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 8dc4fccb2bcfc99d
-  - name: "🇷🇺🛜St.Petersburg 🕊️"
-    type: vless
-    server: 188.225.77.238
-    port: 2443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: ie.ozone.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   - name: "🇺🇸🛜USA"
     type: vless
-    server: usa-va.chocolatemango.live
+    server: usa-il.chocolatemango.live
     port: 443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
-    servername: usa-va.chocolatemango.live
+    servername: usa-il.chocolatemango.live
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: "🇪🇺🟢МТС №1"
     type: vless
     server: dog.chocolatemango.live
@@ -137,34 +117,10 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: "🇷🇺🟢МТС №2"
-    type: vless
-    server: dog.chocolatemango.live
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
   - name: "🇪🇺🔵МТС №3"
     type: vless
     server: 89.208.87.121
     port: 5444
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: "🇷🇺🔵МТС №4"
-    type: vless
-    server: 89.208.87.121
-    port: 443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
@@ -185,18 +141,6 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
-  - name: "🇷🇺🟠МТС №6"
-    type: vless
-    server: fox.chocolatemango.live
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   - name: "🇪🇺⚪МТС №7"
     type: vless
     server: rat.chocolatemango.live
@@ -209,41 +153,24 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
-  - name: "🇷🇺⚪МТС №8"
-    type: vless
-    server: rat.chocolatemango.live
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
 proxy-groups:
   - name: VPN
     type: select
     proxies:
+      - "Тех. работы до 13:00"
+      - "После 13:00 обновите"
       - "🇩🇪🛜Germany №1"
       - "🇵🇱🛜Poland №1"
-      - "🇵🇱🛜Poland №2"
       - "🇳🇱🛜Netherlands"
       - "🇪🇪🛜Estonia"
-      - "🇫🇷🛜France"
       - "🇩🇪🛜Germany №2"
-      - "🇮🇹🛜Italy"
       - "🇺🇦🛜Ukraine"
-      - "🇷🇺🛜St.Petersburg 🕊️"
       - "🇺🇸🛜USA"
       - "🇪🇺🟢МТС №1"
-      - "🇷🇺🟢МТС №2"
       - "🇪🇺🔵МТС №3"
-      - "🇷🇺🔵МТС №4"
       - "🇪🇺🟠МТС №5"
-      - "🇷🇺🟠МТС №6"
       - "🇪🇺⚪МТС №7"
-      - "🇷🇺⚪МТС №8"
 
 rules:
   - MATCH,VPN
