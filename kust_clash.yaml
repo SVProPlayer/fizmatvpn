@@ -1,28 +1,4 @@
 proxies:
-  - name: "Тех. работы до 13:00"
-    type: vless
-    server: 127.0.0.1
-    port: 443
-    uuid: perez
-    udp: true
-    tls: true
-    servername: www.vk.com
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: just-a-sign
-  - name: "После 13:00 обновите"
-    type: vless
-    server: 127.0.0.1
-    port: 443
-    uuid: perez
-    udp: true
-    tls: true
-    servername: www.vk.com
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: just-a-sign
   - name: "🇩🇪[🍀] 🛜Germany №1"
     type: vless
     server: de-nuremberg.chocolatemango.live
@@ -45,6 +21,15 @@ proxies:
     reality-opts:
       public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
       short-id: 3429a41453f39be2
+  - name: "🇵🇱[🍀] 🛜Poland №2"
+    type: vless
+    server: 83.166.248.83
+    port: 2087
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: pl.learnyouthinspire.co.uk
+    flow: xtls-rprx-vision
   - name: "🇳🇱[🍀] 🛜Netherlands"
     type: vless
     server: nl27.linkey35.ru
@@ -70,19 +55,37 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 6a59ae0dc685b1c2
+  - name: "🇫🇷[🍀] 🛜France"
+    type: vless
+    server: 83.166.248.83
+    port: 443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: fr.learnyouthinspire.co.uk
+    flow: xtls-rprx-vision
   - name: "🇩🇪[🍀] 🛜Germany №2"
     type: vless
-    server: de.subv.ru
+    server: bde.titun.su
     port: 443
     uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: iui.su
+    servername: toz.su
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
+  - name: "🇮🇹[🍀] 🛜Italy"
+    type: vless
+    server: 83.166.248.83
+    port: 8443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: it.learnyouthinspire.co.uk
+    flow: xtls-rprx-vision
   - name: "🇺🇦[🍀] 🛜Ukraine"
     type: vless
     server: fua.subv.ru
@@ -96,6 +99,31 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 8dc4fccb2bcfc99d
+  - name: "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
+    type: vless
+    server: 188.225.77.238
+    port: 2443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: ie.ozone.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  - name: "🇫🇮[🍀] 🛜Finland"
+    type: vless
+    server: fi.jojack.ru
+    port: 443
+    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    udp: true
+    tls: true
+    servername: fi.jojack.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw
+      short-id: 5057ad011c93051b
   - name: "🇺🇸[🍀] 🛜USA"
     type: vless
     server: usa-il.chocolatemango.live
@@ -105,10 +133,23 @@ proxies:
     tls: true
     servername: usa-il.chocolatemango.live
     flow: xtls-rprx-vision
-  - name: "🇪🇺[🍀] 🟢Моб. интернет"
+  - name: "🇪🇺[🍀] 🟠Моб. интернет"
     type: vless
-    server: dog.chocolatemango.live
+    server: fox.chocolatemango.live
     port: 5444
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+  - name: "🇷🇺[🍀] 🟠Моб. интернет"
+    type: vless
+    server: fox.chocolatemango.live
+    port: 443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
@@ -133,16 +174,20 @@ proxy-groups:
   - name: VPN
     type: select
     proxies:
-      - "Тех. работы до 13:00"
-      - "После 13:00 обновите"
       - "🇩🇪[🍀] 🛜Germany №1"
       - "🇵🇱[🍀] 🛜Poland №1"
+      - "🇵🇱[🍀] 🛜Poland №2"
       - "🇳🇱[🍀] 🛜Netherlands"
       - "🇪🇪[🍀] 🛜Estonia"
+      - "🇫🇷[🍀] 🛜France"
       - "🇩🇪[🍀] 🛜Germany №2"
+      - "🇮🇹[🍀] 🛜Italy"
       - "🇺🇦[🍀] 🛜Ukraine"
+      - "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
+      - "🇫🇮[🍀] 🛜Finland"
       - "🇺🇸[🍀] 🛜USA"
-      - "🇪🇺[🍀] 🟢Моб. интернет"
+      - "🇪🇺[🍀] 🟠Моб. интернет"
+      - "🇷🇺[🍀] 🟠Моб. интернет"
       - "🇷🇺[🍀] 🔴Дневник (моб.интернет)"
 
 rules:
