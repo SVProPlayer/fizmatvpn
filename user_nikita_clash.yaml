@@ -55,6 +55,20 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 6a59ae0dc685b1c2
+  - name: "🇷🇺🛜St.Petersburg 🕊️"
+    type: vless
+    server: led-ru.learnyouthinspire.co.uk
+    port: 443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: led-ru.learnyouthinspire.co.uk
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: led-ru.learnyouthinspire.co.uk
   - name: "🇫🇷🛜France🤖"
     type: vless
     server: 83.166.248.83
@@ -218,7 +232,7 @@ proxies:
       short-id: 6ba85179e30d4fc2
   - name: "🇷🇺🔴Дневник (моб.интернет)"
     type: vless
-    server: rat.chocolatemango.live
+    server: 217.16.30.165
     port: 55553
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
@@ -237,6 +251,7 @@ proxy-groups:
       - "🇵🇱🛜Poland №2🤖"
       - "🇳🇱🛜Netherlands"
       - "🇪🇪🛜Estonia"
+      - "🇷🇺🛜St.Petersburg 🕊️"
       - "🇫🇷🛜France🤖"
       - "🇩🇪🛜Germany №2"
       - "🇮🇹🛜Italy🤖"
