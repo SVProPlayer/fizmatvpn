@@ -246,6 +246,21 @@ SUBSCRIPTIONS = {
         ("SPB_Private_WiFi", "🇷🇺Санкт-Петербург Wi-Fi"),
         ("SPB_Private", "🇷🇺Моб. интернет"),
     ],
+    "user_mz.txt": [
+        ("SIGN", "‼️⬇️Только моб. интернет"),
+        ("RLTE_EU", "🇪🇺🔵МТС №1"),
+        ("RLTE_RU", "🇷🇺🔵МТС №2"),
+        ("FLTE_EU", "🇪🇺🟠МТС №3"),
+        ("FLTE_RU", "🇷🇺🟠МТС №4"),
+        ("WLTE_EU", "🇪🇺⚪МТС №5"),
+        ("WLTE_RU", "🇷🇺⚪МТС №6"),
+        ("DLTE_EU", "🇪🇺🟢МТС №7"),
+        ("DLTE_RU", "🇷🇺🟢МТС №8"),
+        ("SIGN", "‼️⬇️VPN для Wi-Fi"),
+        ("Germany", "🇩🇪🛜Germany"),
+        ("Austria", "🇦🇹🛜Austria"),
+        ("Poland", "🇵🇱🛜Poland"),
+    ],
     "user_nikita_clash.txt": {
         "clash": True,
         "servers": [
