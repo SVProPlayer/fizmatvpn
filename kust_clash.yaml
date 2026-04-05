@@ -1,13 +1,17 @@
 proxies:
-  - name: "🇩🇪[🍀] 🛜Germany №1"
+  - name: "🇪🇪[🍀] 🛜Estonia"
     type: vless
-    server: de-nuremberg.chocolatemango.live
+    server: es.subv.ru
     port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: de-nuremberg.chocolatemango.live
+    servername: es.subv.ru
     flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+      short-id: 6a59ae0dc685b1c2
   - name: "🇵🇱[🍀] 🛜Poland №1"
     type: vless
     server: pl.cdns.su
@@ -30,53 +34,14 @@ proxies:
     tls: true
     servername: pl.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
-  - name: "🇳🇱[🍀] 🛜Netherlands"
+  - name: "🇩🇪[🍀] 🛜Germany №1"
     type: vless
-    server: nl27.linkey35.ru
-    port: 443
-    uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
-    udp: true
-    tls: true
-    servername: www.vk.com
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg
-  - name: "🇪🇪[🍀] 🛜Estonia"
-    type: vless
-    server: es.subv.ru
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: es.subv.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-      short-id: 6a59ae0dc685b1c2
-  - name: "🇷🇺🛜St.Petersburg 🕊️"
-    type: vless
-    server: led-ru.learnyouthinspire.co.uk
+    server: de-nuremberg.chocolatemango.live
     port: 443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
-    servername: led-ru.learnyouthinspire.co.uk
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: led-ru.learnyouthinspire.co.uk
-  - name: "🇫🇷[🍀] 🛜France"
-    type: vless
-    server: 83.166.248.83
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: fr.learnyouthinspire.co.uk
+    servername: de-nuremberg.chocolatemango.live
     flow: xtls-rprx-vision
   - name: "🇩🇪[🍀] 🛜Germany №2"
     type: vless
@@ -91,40 +56,31 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "🇮🇹[🍀] 🛜Italy"
+  - name: "🇳🇱[🍀] 🛜Netherlands №1"
     type: vless
-    server: 83.166.248.83
-    port: 8443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    server: nl27.linkey35.ru
+    port: 443
+    uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
     udp: true
     tls: true
-    servername: it.learnyouthinspire.co.uk
+    servername: www.vk.com
     flow: xtls-rprx-vision
-  - name: "🇺🇦[🍀] 🛜Ukraine"
+    client-fingerprint: qq
+    reality-opts:
+      public-key: TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg
+  - name: "🇳🇱[🍀] 🛜Netherlands №2"
     type: vless
-    server: fua.subv.ru
+    server: rnl.subv.ru
     port: 443
     uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: fua.subv.ru
+    servername: rnl.subv.ru
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
-      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-      short-id: 8dc4fccb2bcfc99d
-  - name: "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
-    type: vless
-    server: 188.225.77.238
-    port: 2443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: ie.ozone.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
+      short-id: ba262a270ecb844e
   - name: "🇫🇮[🍀] 🛜Finland"
     type: vless
     server: fi.jojack.ru
@@ -138,6 +94,64 @@ proxies:
     reality-opts:
       public-key: u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw
       short-id: 5057ad011c93051b
+  - name: "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
+    type: vless
+    server: led-ru.learnyouthinspire.co.uk
+    port: 443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: led-ru.learnyouthinspire.co.uk
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: led-ru.learnyouthinspire.co.uk
+  - name: "🇧🇾[🍀] 🛜Belarus"
+    type: vless
+    server: hb-by3.cdns.su
+    port: 443
+    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    udp: true
+    tls: true
+    servername: hb-by3.cdns.su
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg
+      short-id: 25fcecd00cbcf3eb
+  - name: "🇺🇦[🍀] 🛜Ukraine"
+    type: vless
+    server: fua.subv.ru
+    port: 443
+    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    udp: true
+    tls: true
+    servername: fua.subv.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+      short-id: 8dc4fccb2bcfc99d
+  - name: "🇫🇷[🍀] 🛜France"
+    type: vless
+    server: 83.166.248.83
+    port: 443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: fr.learnyouthinspire.co.uk
+    flow: xtls-rprx-vision
+  - name: "🇮🇹[🍀] 🛜Italy"
+    type: vless
+    server: 83.166.248.83
+    port: 8443
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: it.learnyouthinspire.co.uk
+    flow: xtls-rprx-vision
   - name: "🇺🇸[🍀] 🛜USA"
     type: vless
     server: usa-il.chocolatemango.live
@@ -188,18 +202,19 @@ proxy-groups:
   - name: VPN
     type: select
     proxies:
-      - "🇩🇪[🍀] 🛜Germany №1"
+      - "🇪🇪[🍀] 🛜Estonia"
       - "🇵🇱[🍀] 🛜Poland №1"
       - "🇵🇱[🍀] 🛜Poland №2"
-      - "🇳🇱[🍀] 🛜Netherlands"
-      - "🇪🇪[🍀] 🛜Estonia"
-      - "🇷🇺🛜St.Petersburg 🕊️"
-      - "🇫🇷[🍀] 🛜France"
+      - "🇩🇪[🍀] 🛜Germany №1"
       - "🇩🇪[🍀] 🛜Germany №2"
-      - "🇮🇹[🍀] 🛜Italy"
-      - "🇺🇦[🍀] 🛜Ukraine"
-      - "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
+      - "🇳🇱[🍀] 🛜Netherlands №1"
+      - "🇳🇱[🍀] 🛜Netherlands №2"
       - "🇫🇮[🍀] 🛜Finland"
+      - "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
+      - "🇧🇾[🍀] 🛜Belarus"
+      - "🇺🇦[🍀] 🛜Ukraine"
+      - "🇫🇷[🍀] 🛜France"
+      - "🇮🇹[🍀] 🛜Italy"
       - "🇺🇸[🍀] 🛜USA"
       - "🇪🇺[🍀] 🟠Моб. интернет"
       - "🇷🇺[🍀] 🟠Моб. интернет"
