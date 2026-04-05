@@ -100,7 +100,7 @@ proxies:
     tls: true
     servername: it.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
-  - name: "🇺🇦🛜Ukraine"
+  - name: "🇺🇦🛜Ukraine🤖"
     type: vless
     server: fua.subv.ru
     port: 443
@@ -113,7 +113,7 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 8dc4fccb2bcfc99d
-  - name: "🇫🇮🛜Finland"
+  - name: "🇫🇮🛜Finland🤖"
     type: vless
     server: fi.jojack.ru
     port: 443
@@ -255,8 +255,8 @@ proxy-groups:
       - "🇫🇷🛜France🤖"
       - "🇩🇪🛜Germany №2"
       - "🇮🇹🛜Italy🤖"
-      - "🇺🇦🛜Ukraine"
-      - "🇫🇮🛜Finland"
+      - "🇺🇦🛜Ukraine🤖"
+      - "🇫🇮🛜Finland🤖"
       - "🇺🇸🛜USA🤖"
       - "🇪🇺🔵МТС №1"
       - "🇷🇺🔵МТС №2"
