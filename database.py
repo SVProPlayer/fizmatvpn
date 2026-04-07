@@ -3,8 +3,8 @@ SERVER_TEMPLATES = {
     "SIGN": "vless://perez@127.0.0.1:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=just-a-sign",
     "Example": "",
     
-    "DLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-    "DLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
+    "ZDLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+    "ZDLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "ZRLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@shrimp.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "ZRLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@shrimp.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "FLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@hamster.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
@@ -15,6 +15,8 @@ SERVER_TEMPLATES = {
 
     "RLTE_EU": "",
     "RLTE_RU": "",
+    "DLTE_EU": "",
+    "DLTE_RU": "",
 
     
     "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=pl.learnyouthinspire.co.uk",
@@ -64,7 +66,7 @@ SUBSCRIPTIONS = {
         ("DLTE_RU", "🇷🇺💚МегаФон №8"),
         ("SPB_Private", "🇷🇺❤️Дневник (моб.интернет)"),
         ("SIGN", "Если не работает – обнови🔄"),
-        #("SIGN", "Never forget 🔄"),
+        ("SIGN", "Never forget 🔄"),
         ("Estonia_S", "🇪🇪🛜Estonia"),
         ("Poland_S", "🇵🇱🛜Poland №1"),
         ("Poland", "🇵🇱🛜Poland №2"),
