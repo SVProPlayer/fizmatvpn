@@ -5,13 +5,17 @@ SERVER_TEMPLATES = {
     
     "DLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:5444?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "DLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@dog.chocolatemango.live:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
-    "RLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@shrimp.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
-    "RLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@shrimp.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
+    "ZRLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@shrimp.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
+    "ZRLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@shrimp.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "FLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@hamster.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "FLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@hamster.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "WLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@rat.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "WLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@rat.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "SPB_Private": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.16.30.165:55553?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+
+    "RLTE_EU": "",
+    "RLTE_RU": "",
+
     
     "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=pl.learnyouthinspire.co.uk",
     "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:443?encryption=none&flow=xtls-rprx-vision&type=tcp&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk",
