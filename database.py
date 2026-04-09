@@ -280,6 +280,17 @@ SUBSCRIPTIONS = {
         ("Austria", "🇦🇹🛜Austria"),
         ("Poland", "🇵🇱🛜Poland"),
     ],
+    "user_mn.txt": [
+        ("SIGN", "‼️⬇️Только моб. интернет"),
+        ("WLTE_EU", "🇪🇺⚪МТС №1"),
+        ("WLTE_RU", "🇷🇺⚪МТС №2"),
+        ("FLTE_EU", "🇪🇺🟠МТС №3"),
+        ("FLTE_RU", "🇷🇺🟠МТС №4"),
+        ("SIGN", "‼️⬇️VPN для Wi-Fi"),
+        ("Germany", "🇩🇪🛜Germany №1"),
+        ("SPB_Private_WiFi", "🇷🇺🛜St.Petersburg 🕊️"),
+        ("NL_S", "🇳🇱🛜Netherlands №2"),
+    ],
     "user_nikita_clash.txt": {
         "clash": True,
         "servers": [
