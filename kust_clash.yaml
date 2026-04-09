@@ -12,28 +12,6 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 6a59ae0dc685b1c2
-  - name: "🇵🇱[🍀] 🛜Poland №1"
-    type: vless
-    server: pl.cdns.su
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: pl.cdns.su
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
-      short-id: 3429a41453f39be2
-  - name: "🇵🇱[🍀] 🛜Poland №2"
-    type: vless
-    server: 83.166.248.83
-    port: 2087
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: pl.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
   - name: "🇩🇪[🍀] 🛜Germany №1"
     type: vless
     server: de-nuremberg.chocolatemango.live
@@ -81,6 +59,19 @@ proxies:
     reality-opts:
       public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
       short-id: ba262a270ecb844e
+  - name: "🇱🇹[🍀] 🛜Lithuania"
+    type: vless
+    server: redlt.jojackcraft.ru
+    port: 443
+    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    udp: true
+    tls: true
+    servername: goo.su
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: 428ef87fd47a3a32
   - name: "🇫🇮[🍀] 🛜Finland"
     type: vless
     server: fi.jojack.ru
@@ -202,12 +193,11 @@ proxy-groups:
     type: select
     proxies:
       - "🇪🇪[🍀] 🛜Estonia"
-      - "🇵🇱[🍀] 🛜Poland №1"
-      - "🇵🇱[🍀] 🛜Poland №2"
       - "🇩🇪[🍀] 🛜Germany №1"
       - "🇩🇪[🍀] 🛜Germany №2"
       - "🇳🇱[🍀] 🛜Netherlands №1"
       - "🇳🇱[🍀] 🛜Netherlands №2"
+      - "🇱🇹[🍀] 🛜Lithuania"
       - "🇫🇮[🍀] 🛜Finland"
       - "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
       - "🇧🇾[🍀] 🛜Belarus"
