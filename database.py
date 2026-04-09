@@ -11,7 +11,7 @@ SERVER_TEMPLATES = {
     "FLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@hamster.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
     "WLTE_EU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@rat.chocolatemango.live:5444?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
     "WLTE_RU": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@rat.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-    "SPB_Private": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@217.16.30.165:55553?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+    "SPB_Private": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@rat.chocolatemango.live:55553?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
 
     "RLTE_EU": "",
     "RLTE_RU": "",
@@ -26,7 +26,7 @@ SERVER_TEMPLATES = {
     "Austria": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@at.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=at.chocolatemango.live",
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@usa-il.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=usa-il.chocolatemango.live",
     
-    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl27.linkey35.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg",
+    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl11.linkey6.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=s4xi8oY-qtnROuB01FW9LrNr3KkOFRqM1NIdU_HWVEQ",
     "SPB_Private_WiFi": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@led-ru.learnyouthinspire.co.uk:443?flow=&type=ws&host=led-ru.learnyouthinspire.co.uk&path=/vless&security=tls&sni=led-ru.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     
     "Estonia_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@es.subv.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=es.subv.ru&pbk=ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA&sid=6a59ae0dc685b1c2&spx=/",
