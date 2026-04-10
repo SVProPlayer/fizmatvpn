@@ -17,22 +17,22 @@ SERVER_TEMPLATES = {
     "RLTE_RU": "",
     "DLTE_EU": "",
     "DLTE_RU": "",
-    "Poland": "",
-    "Poland_S": "",
+    "ZNL_2": "",
+    
 
     
-    "ZPoland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=pl.learnyouthinspire.co.uk",
+    "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=pl.learnyouthinspire.co.uk",
     "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:443?encryption=none&flow=xtls-rprx-vision&type=tcp&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk",
     "Germany": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@de-nuremberg.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=de-nuremberg.chocolatemango.live",
     "Italy": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=it.learnyouthinspire.co.uk",
     "Austria": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@at.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=at.chocolatemango.live",
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@usa-il.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=usa-il.chocolatemango.live",
     
-    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@nl11.linkey6.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=s4xi8oY-qtnROuB01FW9LrNr3KkOFRqM1NIdU_HWVEQ",
+    "NL_2": "vless://9d365a6d-4b01-4932-a0c1-86a2e873a4c1@s3.nodu3.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=www.vk.com&pbk=5QZcakEw6H3Gv_l-lbOuWfVSxlNlnLf0MOzutNAb90Y",
     "SPB_Private_WiFi": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@led-ru.learnyouthinspire.co.uk:443?flow=&type=ws&host=led-ru.learnyouthinspire.co.uk&path=/vless&security=tls&sni=led-ru.learnyouthinspire.co.uk&fp=chrome&allowInsecure=0",
     
     "Estonia_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@es.subv.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=es.subv.ru&pbk=ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA&sid=6a59ae0dc685b1c2&spx=/",
-    "ZPoland_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@pl.cdns.su:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=pl.cdns.su&pbk=hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw&sid=3429a41453f39be2&spx=/",
+    "Poland_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@pl.cdns.su:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=pl.cdns.su&pbk=hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw&sid=1b45225e6233b79b&spx=/",
     "Germany_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@bde.titun.su:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=toz.su&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32",
     "Finland_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@fi.jojack.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=fi.jojack.ru&pbk=u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw&sid=5057ad011c93051b&spx=/",
     "Ukraine_S": "vless://aa2c60ea-74cb-468b-b531-fd70516f1449@fua.subv.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=fua.subv.ru&pbk=ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA&sid=8dc4fccb2bcfc99d&spx=/",
