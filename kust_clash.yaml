@@ -12,6 +12,28 @@ proxies:
     reality-opts:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 6a59ae0dc685b1c2
+  - name: "🇵🇱[🍀] 🛜Poland №1"
+    type: vless
+    server: pl.cdns.su
+    port: 443
+    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    udp: true
+    tls: true
+    servername: pl.cdns.su
+    flow: xtls-rprx-vision
+    client-fingerprint: qq
+    reality-opts:
+      public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
+      short-id: 1b45225e6233b79b
+  - name: "🇵🇱[🍀] 🛜Poland №2"
+    type: vless
+    server: 83.166.248.83
+    port: 2087
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: pl.learnyouthinspire.co.uk
+    flow: xtls-rprx-vision
   - name: "🇩🇪[🍀] 🛜Germany №1"
     type: vless
     server: de-nuremberg.chocolatemango.live
@@ -36,7 +58,7 @@ proxies:
       short-id: 428ef87fd47a3a32
   - name: "🇳🇱[🍀] 🛜Netherlands №1"
     type: vless
-    server: nl11.linkey6.ru
+    server: s3.nodu3.ru
     port: 443
     uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
     udp: true
@@ -45,7 +67,7 @@ proxies:
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
-      public-key: s4xi8oY-qtnROuB01FW9LrNr3KkOFRqM1NIdU_HWVEQ
+      public-key: 5QZcakEw6H3Gv_l-lbOuWfVSxlNlnLf0MOzutNAb90Y
   - name: "🇳🇱[🍀] 🛜Netherlands №2"
     type: vless
     server: rnl.subv.ru
@@ -193,6 +215,8 @@ proxy-groups:
     type: select
     proxies:
       - "🇪🇪[🍀] 🛜Estonia"
+      - "🇵🇱[🍀] 🛜Poland №1"
+      - "🇵🇱[🍀] 🛜Poland №2"
       - "🇩🇪[🍀] 🛜Germany №1"
       - "🇩🇪[🍀] 🛜Germany №2"
       - "🇳🇱[🍀] 🛜Netherlands №1"

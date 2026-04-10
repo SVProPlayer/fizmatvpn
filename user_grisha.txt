@@ -10,7 +10,7 @@ vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@hamster.chocolatemango.live:443?enc
 vless://perez@127.0.0.1:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=www.vk.com&pbk=just-a-sign#%E2%80%BC%EF%B8%8F%E2%AC%87%EF%B8%8FVPN%20%D0%B4%D0%BB%D1%8F%20Wi-Fi
 vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@de-nuremberg.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=de-nuremberg.chocolatemango.live#%F0%9F%87%A9%F0%9F%87%AA%F0%9F%9B%9CGermany
 vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@at.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=at.chocolatemango.live#%F0%9F%87%A6%F0%9F%87%B9%F0%9F%9B%9CAustria
-#%F0%9F%87%B5%F0%9F%87%B1%F0%9F%9B%9CPoland
+vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=pl.learnyouthinspire.co.uk#%F0%9F%87%B5%F0%9F%87%B1%F0%9F%9B%9CPoland
 vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:443?encryption=none&flow=xtls-rprx-vision&type=tcp&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk#%F0%9F%87%AB%F0%9F%87%B7%F0%9F%9B%9CFrance
 vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=it.learnyouthinspire.co.uk#%F0%9F%87%AE%F0%9F%87%B9%F0%9F%9B%9CItaly
 vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@usa-il.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=usa-il.chocolatemango.live#%F0%9F%87%BA%F0%9F%87%B8%F0%9F%9B%9CUSA
