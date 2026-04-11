@@ -56,18 +56,6 @@ proxies:
     reality-opts:
       public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
       short-id: 428ef87fd47a3a32
-  - name: "🇳🇱[🍀] 🛜Netherlands №1"
-    type: vless
-    server: s3.nodu3.ru
-    port: 443
-    uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
-    udp: true
-    tls: true
-    servername: www.vk.com
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 5QZcakEw6H3Gv_l-lbOuWfVSxlNlnLf0MOzutNAb90Y
   - name: "🇳🇱[🍀] 🛜Netherlands №2"
     type: vless
     server: rnl.subv.ru
@@ -123,17 +111,17 @@ proxies:
         Host: led-ru.learnyouthinspire.co.uk
   - name: "🇧🇾[🍀] 🛜Belarus"
     type: vless
-    server: hb-by3.cdns.su
+    server: hb-by1.cdns.su
     port: 443
     uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: hb-by3.cdns.su
+    servername: hb-by1.cdns.su
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
       public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg
-      short-id: 25fcecd00cbcf3eb
+      short-id: d1cded7f711b0c1d
   - name: "🇺🇦[🍀] 🛜Ukraine"
     type: vless
     server: fua.subv.ru
@@ -197,7 +185,20 @@ proxies:
     flow: xtls-rprx-vision
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: "🇷🇺[🍀] 🔴Дневник (моб.интернет)"
+  - name: "🇪🇺[🍀] 🔴Моб. интернет"
+    type: vless
+    server: rat.chocolatemango.live
+    port: 55559
+    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
+    udp: true
+    tls: true
+    servername: max.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+  - name: "🇷🇺[🍀] 🔴Моб. интернет"
     type: vless
     server: rat.chocolatemango.live
     port: 55553
@@ -219,7 +220,6 @@ proxy-groups:
       - "🇵🇱[🍀] 🛜Poland №2"
       - "🇩🇪[🍀] 🛜Germany №1"
       - "🇩🇪[🍀] 🛜Germany №2"
-      - "🇳🇱[🍀] 🛜Netherlands №1"
       - "🇳🇱[🍀] 🛜Netherlands №2"
       - "🇱🇹[🍀] 🛜Lithuania"
       - "🇫🇮[🍀] 🛜Finland"
@@ -231,7 +231,8 @@ proxy-groups:
       - "🇺🇸[🍀] 🛜USA"
       - "🇪🇺[🍀] ⚪Моб. интернет"
       - "🇷🇺[🍀] ⚪Моб. интернет"
-      - "🇷🇺[🍀] 🔴Дневник (моб.интернет)"
+      - "🇪🇺[🍀] 🔴Моб. интернет"
+      - "🇷🇺[🍀] 🔴Моб. интернет"
 
 rules:
   - MATCH,VPN
