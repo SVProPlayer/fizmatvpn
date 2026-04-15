@@ -27,13 +27,14 @@ proxies:
       short-id: 1b45225e6233b79b
   - name: "🇵🇱[🍀] 🛜Poland №2"
     type: vless
-    server: 83.166.248.83
+    server: ovh.furkbalancer.net
     port: 2087
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
     servername: pl.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
+    client-fingerprint: chrome
   - name: "🇩🇪[🍀] 🛜Germany №1"
     type: vless
     server: de-nuremberg.chocolatemango.live
@@ -43,6 +44,7 @@ proxies:
     tls: true
     servername: de-nuremberg.chocolatemango.live
     flow: xtls-rprx-vision
+    client-fingerprint: chrome
   - name: "🇩🇪[🍀] 🛜Germany №2"
     type: vless
     server: bde.titun.su
@@ -137,22 +139,24 @@ proxies:
       short-id: 8dc4fccb2bcfc99d
   - name: "🇫🇷[🍀] 🛜France"
     type: vless
-    server: 83.166.248.83
+    server: ovh.furkbalancer.net
     port: 443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
     servername: fr.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
+    client-fingerprint: chrome
   - name: "🇮🇹[🍀] 🛜Italy"
     type: vless
-    server: 83.166.248.83
+    server: ovh.furkbalancer.net
     port: 8443
     uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
     udp: true
     tls: true
     servername: it.learnyouthinspire.co.uk
     flow: xtls-rprx-vision
+    client-fingerprint: chrome
   - name: "🇺🇸[🍀] 🛜USA"
     type: vless
     server: usa-il.chocolatemango.live
