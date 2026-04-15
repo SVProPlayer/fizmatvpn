@@ -22,10 +22,10 @@ SERVER_TEMPLATES = {
     
 
     
-    "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=pl.learnyouthinspire.co.uk",
-    "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:443?encryption=none&flow=xtls-rprx-vision&type=tcp&host=fr.learnyouthinspire.co.uk&path=/vless&security=tls&sni=fr.learnyouthinspire.co.uk",
-    "Germany": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@de-nuremberg.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=de-nuremberg.chocolatemango.live",
-    "Italy": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@83.166.248.83:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=it.learnyouthinspire.co.uk",
+    "Poland": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@ovh.furkbalancer.net:2087?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&fp=chrome&sni=pl.learnyouthinspire.co.uk",
+    "France": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@ovh.furkbalancer.net:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&fp=chrome&sni=fr.learnyouthinspire.co.uk",
+    "Germany": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@de-nuremberg.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&fp=chrome&sni=de-nuremberg.chocolatemango.live",
+    "Italy": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@ovh.furkbalancer.net:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&fp=chrome&sni=it.learnyouthinspire.co.uk",
     "Austria": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@at.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=at.chocolatemango.live",
     "USA": "vless://7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f@usa-il.chocolatemango.live:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=tls&sni=usa-il.chocolatemango.live",
     
