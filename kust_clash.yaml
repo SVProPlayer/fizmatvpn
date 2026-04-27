@@ -47,12 +47,12 @@ proxies:
     client-fingerprint: chrome
   - name: "🇩🇪[🍀] 🛜Germany №2"
     type: vless
-    server: bde.titun.su
+    server: de.subv.ru
     port: 443
     uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: toz.su
+    servername: sevastopol.su
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
@@ -60,17 +60,16 @@ proxies:
       short-id: 428ef87fd47a3a32
   - name: "🇳🇱[🍀] 🛜Netherlands №2"
     type: vless
-    server: rnl.subv.ru
+    server: nl26.linkey35.ru
     port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
     udp: true
     tls: true
-    servername: rnl.subv.ru
+    servername: www.vk.com
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
-      public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
-      short-id: ba262a270ecb844e
+      public-key: TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg
   - name: "🇱🇹[🍀] 🛜Lithuania"
     type: vless
     server: redlt.jojackcraft.ru
@@ -113,17 +112,17 @@ proxies:
         Host: led-ru.learnyouthinspire.co.uk
   - name: "🇧🇾[🍀] 🛜Belarus"
     type: vless
-    server: hb-by1.cdns.su
+    server: hb-by2.cdns.su
     port: 443
     uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
     udp: true
     tls: true
-    servername: hb-by1.cdns.su
+    servername: hb-by2.cdns.su
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
       public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg
-      short-id: d1cded7f711b0c1d
+      short-id: cad317b20db4aad2
   - name: "🇺🇦[🍀] 🛜Ukraine"
     type: vless
     server: fua.subv.ru
