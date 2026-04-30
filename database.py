@@ -89,7 +89,7 @@ SUBSCRIPTIONS = {
         ("USA", "🇺🇸🛜USA"),
     ],
     "kustvpn.txt": [
-        ("RLTE_EU", "🇪🇺[🍀] 🔵Моб. интернет"),
+        ("RLTE_EU", "announce: base64:a3VzdFZQTiBpcyBzb29uLi4u8J+NgA=="),
         ("RLTE_RU", "🇷🇺[🍀] 🔵Моб. интернет"),
         ("WLTE_EU", "🇪🇺[🍀] ⚪Моб. интернет"),
         ("WLTE_RU", "🇷🇺[🍀] ⚪Моб. интернет"),
