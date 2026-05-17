@@ -1,243 +1,35 @@
 proxies:
-  - name: "🇪🇪[🍀] 🛜Estonia"
+  - name: "Подписка отключена"
     type: vless
-    server: es.subv.ru
+    server: 127.0.0.1
     port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: es.subv.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-      short-id: 6a59ae0dc685b1c2
-  - name: "🇵🇱[🍀] 🛜Poland №1"
-    type: vless
-    server: pl.cdns.su
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: pl.cdns.su
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
-      short-id: 1b45225e6233b79b
-  - name: "🇵🇱[🍀] 🛜Poland №2"
-    type: vless
-    server: ovh.furkbalancer.net
-    port: 2087
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: pl.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: "🇩🇪[🍀] 🛜Germany №1"
-    type: vless
-    server: de-nuremberg.chocolatemango.live
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: de-nuremberg.chocolatemango.live
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: "🇩🇪[🍀] 🛜Germany №2"
-    type: vless
-    server: de.subv.ru
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: sevastopol.su
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-      short-id: 428ef87fd47a3a32
-  - name: "🇳🇱[🍀] 🛜Netherlands №2"
-    type: vless
-    server: nl26.linkey35.ru
-    port: 443
-    uuid: 9d365a6d-4b01-4932-a0c1-86a2e873a4c1
+    uuid: perez
     udp: true
     tls: true
     servername: www.vk.com
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
-      public-key: TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg
-  - name: "🇱🇹[🍀] 🛜Lithuania"
+      public-key: just-a-sign
+  - name: "Новая ссылка в ЛС"
     type: vless
-    server: redlt.jojackcraft.ru
+    server: 127.0.0.1
     port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
+    uuid: perez
     udp: true
     tls: true
-    servername: goo.su
+    servername: www.vk.com
     flow: xtls-rprx-vision
     client-fingerprint: qq
     reality-opts:
-      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-      short-id: 428ef87fd47a3a32
-  - name: "🇫🇮[🍀] 🛜Finland"
-    type: vless
-    server: fi.jojack.ru
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: fi.jojack.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw
-      short-id: 5057ad011c93051b
-  - name: "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
-    type: vless
-    server: led-ru.learnyouthinspire.co.uk
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: led-ru.learnyouthinspire.co.uk
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: led-ru.learnyouthinspire.co.uk
-  - name: "🇧🇾[🍀] 🛜Belarus"
-    type: vless
-    server: hb-by2.cdns.su
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: hb-by2.cdns.su
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg
-      short-id: cad317b20db4aad2
-  - name: "🇺🇦[🍀] 🛜Ukraine"
-    type: vless
-    server: fua.subv.ru
-    port: 443
-    uuid: aa2c60ea-74cb-468b-b531-fd70516f1449
-    udp: true
-    tls: true
-    servername: fua.subv.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: qq
-    reality-opts:
-      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-      short-id: 8dc4fccb2bcfc99d
-  - name: "🇫🇷[🍀] 🛜France"
-    type: vless
-    server: ovh.furkbalancer.net
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: fr.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: "🇮🇹[🍀] 🛜Italy"
-    type: vless
-    server: ovh.furkbalancer.net
-    port: 8443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: it.learnyouthinspire.co.uk
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: "🇺🇸[🍀] 🛜USA"
-    type: vless
-    server: usa-il.chocolatemango.live
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: usa-il.chocolatemango.live
-    flow: xtls-rprx-vision
-  - name: "🇪🇺[🍀] ⚪Моб. интернет"
-    type: vless
-    server: 217.16.22.172
-    port: 5444
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: "🇷🇺[🍀] ⚪Моб. интернет"
-    type: vless
-    server: 217.16.22.172
-    port: 443
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-  - name: "🇪🇺[🍀] 🔴Моб. интернет"
-    type: vless
-    server: 217.16.23.28
-    port: 55559
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  - name: "🇷🇺[🍀] 🔴Моб. интернет"
-    type: vless
-    server: 217.16.23.28
-    port: 55553
-    uuid: 7bee7ce0-f4c1-4d12-bdc0-a1c8c8e6f30f
-    udp: true
-    tls: true
-    servername: max.ru
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      public-key: just-a-sign
 
 proxy-groups:
   - name: VPN
     type: select
     proxies:
-      - "🇪🇪[🍀] 🛜Estonia"
-      - "🇵🇱[🍀] 🛜Poland №1"
-      - "🇵🇱[🍀] 🛜Poland №2"
-      - "🇩🇪[🍀] 🛜Germany №1"
-      - "🇩🇪[🍀] 🛜Germany №2"
-      - "🇳🇱[🍀] 🛜Netherlands №2"
-      - "🇱🇹[🍀] 🛜Lithuania"
-      - "🇫🇮[🍀] 🛜Finland"
-      - "🇷🇺[🍀] 🛜St.Petersburg 🕊️"
-      - "🇧🇾[🍀] 🛜Belarus"
-      - "🇺🇦[🍀] 🛜Ukraine"
-      - "🇫🇷[🍀] 🛜France"
-      - "🇮🇹[🍀] 🛜Italy"
-      - "🇺🇸[🍀] 🛜USA"
-      - "🇪🇺[🍀] ⚪Моб. интернет"
-      - "🇷🇺[🍀] ⚪Моб. интернет"
-      - "🇪🇺[🍀] 🔴Моб. интернет"
-      - "🇷🇺[🍀] 🔴Моб. интернет"
+      - "Подписка отключена"
+      - "Новая ссылка в ЛС"
 
 rules:
   - MATCH,VPN
